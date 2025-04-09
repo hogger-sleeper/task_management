@@ -1,0 +1,32 @@
+<!-- File: view_tasks.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+    <h2>View Tasks</h2>
+    <input type="text" id="employeeName" placeholder="Employee Name">
+    <button onclick="viewTasks()">View</button>
+
+    <h3>Pending Tasks</h3>
+    <ul id="pendingTasks"></ul>
+
+    <h3>Completed Tasks</h3>
+    <ul id="completedTasks"></ul>
+
+
+    <script src="view_tasks.js"></script>
+</body>
+
+</html>
